@@ -131,4 +131,9 @@ class SupplierControllerCore extends FrontController
 		else
 			$this->context->smarty->assign('nbSuppliers', 0);
 	}
+	
+	public function fortesting()
+	{
+		echo 'hkdkfjdkfjdkkjf';
+	}
 }
